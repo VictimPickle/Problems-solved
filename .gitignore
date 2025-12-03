@@ -1,0 +1,7 @@
+statement.txt
+ai_summary.txt
+input.txt
+output.txt
+__pycache__/
+*.pyc
+.DS_Store
