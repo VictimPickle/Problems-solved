@@ -1,0 +1,5 @@
+English Summary
+Given array $a$ of size $n$, partition it into minimum consecutive segments where each segment's sum $\leq k$. Solution: Greedy scan - add to current segment while possible, otherwise start new segment. Complexity: $O(n)$ time, $O(1)$ space.
+
+Persian Summary / خلاصه فارسی
+آرایه $a$ با اندازه $n$ داده شده، آن را به حداقل بازه‌های متوالی تقسیم کنید که مجموع هر بازه $\leq k$ باشد. راه‌حل: پیمایش حریصانه - تا زمانی که ممکن است به بازه فعلی اضافه کنید، در غیر این صورت بازه جدید شروع کنید. پیچیدگی: $O(n)$ زمان، $O(1)$ حافظه.

@@ -1,0 +1,13 @@
+English Summary
+Maximize $\sum (d_i - f_i)$ where $f_i$ is finish day for task $i$, with work duration $a_i$ and deadline $d_i$. One task per day. Solution: Sort tasks by deadline, schedule earliest deadlines first. Use max-heap to swap tasks if a shorter task can improve score.
+
+Key insight: This is a scheduling problem similar to "maximize tasks before deadlines". Score = deadline - completion day. Always better to complete tasks earlier. Sort by deadline, maintain current schedule. If a task doesn't fit before its deadline, replace longest task in current schedule.
+
+Complexity: $O(n \log n)$
+
+Persian Summary / خلاصه فارسی
+بیشینه کردن $\sum (d_i - f_i)$ که $f_i$ روز پایان کار $i$ است، با مدت کار $a_i$ و مهلت $d_i$. روزی یک کار. راه‌حل: مرتب‌سازی کارها بر اساس مهلت، زمان‌بندی مهلت‌های زودتر اول. از هیپ بیشینه برای تعویض کارها استفاده کن اگر کار کوتاه‌تر بتواند نمره را بهبود دهد.
+
+نکته کلیدی: این یک مسئله زمان‌بندی مشابه "بیشینه کردن کارها قبل از مهلت" است. نمره = مهلت - روز اتمام. همیشه بهتر است کارها زودتر تمام شوند. بر اساس مهلت مرتب کن، برنامه فعلی را حفظ کن. اگر کاری قبل از مهلت خود جا نشد، طولانی‌ترین کار در برنامه فعلی را جایگزین کن.
+
+پیچیدگی: $O(n \log n)$
