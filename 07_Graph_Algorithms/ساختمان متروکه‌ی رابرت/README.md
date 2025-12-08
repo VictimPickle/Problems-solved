@@ -9,7 +9,7 @@ They want to determine how many rooms exist in the building. A room is defined a
 
 Every time Robert steps onto a floor cell that hasn't been visited before, Marcus exclaims: "This is a new room!" and they proceed to explore all floor cells connected to it to identify the entire room.
 
-🎯 Input/Output Format
+# 🎯 Input/Output Format
 Input
 First line: Two integers n and m (1 ≤ n, m ≤ 1000)
 
@@ -18,7 +18,7 @@ Next n lines: Each containing a string of length m consisting of # and .
 Output
 A single integer: The number of rooms (connected components of floor cells) in the building.
 
-📊 Examples
+### 📊 Examples
 Example 1
 text
 Input:
@@ -29,9 +29,9 @@ Input:
 #..#...#
 ########
 
-Output:
+### Output:
 3
-Explanation:
+# Explanation:
 The building has 3 rooms of connected floor cells:
 
 Room 1: Top-left cluster (cells (1,1), (1,2), (1,3))
