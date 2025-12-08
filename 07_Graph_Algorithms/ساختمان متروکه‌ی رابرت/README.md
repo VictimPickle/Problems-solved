@@ -1,4 +1,4 @@
-📖 Problem Description
+# 📖 Problem Description
 Marcus and Robert have entered an abandoned building. The building's map is represented as a rectangular grid of cells with dimensions n × m. Each cell is either:
 
 A wall (#)
