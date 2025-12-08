@@ -20,7 +20,7 @@ A single integer: The number of rooms (connected components of floor cells) in t
 
 ### 📊 Examples
 Example 1
-text
+```
 Input:
 5 8
 ########
@@ -29,8 +29,9 @@ Input:
 #..#...#
 ########
 
-### Output:
+Output:
 3
+```
 # Explanation:
 The building has 3 rooms of connected floor cells:
 
