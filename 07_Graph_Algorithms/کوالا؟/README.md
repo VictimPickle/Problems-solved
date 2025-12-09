@@ -16,8 +16,8 @@ The main character is trapped in an **unweighted, undirected graph** with `n` ve
 - یک عدد صحیح / A single integer (کمترین تعداد رأس‌های عبوری از `۱` به `n` / minimum vertices on a path from `1` to `n`) یا / or `IMPOSSIBLE`
 
 ## محدودیت‌ها / Constraints
-- \( ۱ \leq n \leq ۱۰^۵ \) / \( 1 \leq n \leq 10^5 \)
-- \( ۰ \leq m \leq ۲ \times ۱۰^۵ \) / \( 0 \leq m \leq 2 \times 10^5 \)
+- \( 1 \leq n \leq 10^5 \)
+- \( 0 \leq m \leq 2 \times 10^5 \)
 
 ---
 
