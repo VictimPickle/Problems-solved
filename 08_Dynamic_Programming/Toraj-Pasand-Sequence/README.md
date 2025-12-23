@@ -1,4 +1,86 @@
-# دنباله تورج پسند (Toraj-Pasand Sequence)
+# دنباله تورج پسند (Toraj-Pasand Sequence# Toraj-Pasand Sequence
+
+## Problem Description
+
+After Touk's success in winning Popak's heart, he faces a new challenge. To propose to Popak, he must solve a difficult problem set by her father, Mr. Toraj.
+
+Mr. Toraj considers a sequence A₁, A₂, ..., Aₖ of integers as a "good sequence" if the following conditions hold:
+
+- For every 1 ≤ i ≤ k: 0 ≤ aᵢ ≤ 2·d
+- For every 2 ≤ i ≤ k: |aᵢ - aᵢ₋₁| ≤ d
+
+Mr. Toraj has determined the values d and k for Touk. Now, Touk must find the number of good sequences modulo 10⁹ + 7 to be able to propose to Popak.
+
+## Constraints
+
+- Time Limit: 4 seconds
+- Memory Limit: 256 MB
+- 0 ≤ d ≤ 50
+- 1 ≤ k ≤ 10¹⁸
+
+## Input Format
+
+The only line of input contains two integers k and d.
+
+## Output Format
+
+Print one integer — the number of good sequences modulo 10⁹ + 7.
+
+## Sample Examples
+
+### Sample Input 1
+```
+2 2
+```
+
+### Sample Output 1
+```
+11
+```
+
+### Sample Input 2
+```
+9 1
+```
+
+### Sample Output 2
+```
+8119
+```
+
+### Sample Input 3
+```
+10 1
+```
+
+### Sample Output 3
+```
+[Expected output not provided]
+```
+
+## Solution Approach
+
+This problem can be solved using **Matrix Exponentiation**:
+
+1. **Matrix Modeling**: Build a transition matrix T where T[i][j] = 1 if |i - j| ≤ d (i.e., it's possible to transition from state i to state j).
+
+2. **Matrix Power Calculation**: Using Fast Exponentiation algorithm, compute T^(k-1).
+
+3. **Sum All Elements**: The final answer is the sum of all elements in matrix T^(k-1) modulo 10⁹ + 7.
+
+### Time Complexity
+- O(n³ log k) where n = 2d + 1
+- Given the constraint d ≤ 50, this complexity is acceptable.
+
+## Problem Link
+[View problem on Quera](https://quera.org/course/assignments/93579/)
+
+## Tags
+`DP` `Matrix-Exponentiation` `Math` `Combinatorics` `Algorithm`
+
+---
+
+)
 
 ## توضیحات مسئله
 
